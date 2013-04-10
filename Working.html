@@ -1,0 +1,400 @@
+<!doctype html> 
+<html>
+<head>
+<h1><title> Title </title></h1>
+<style type="text/css" media="screen">
+body {
+background-color: black;
+color: white;
+font-family:Verdana, Geneva, sans-serif;
+font-size: 12px;
+}
+xmp
+{
+width: 540px;
+margin: 0;
+padding: 0;
+background-color: #B9B9B9;
+text-align: left;
+border: 5px dotted #36C;
+}
+.withfadeout {
+	-webkit-transition: all 1.5s ease-in-out;
+	-moz-transition: all 1.5s ease-in-out;
+	-ms-transition: all 1.5s ease-in-out;
+	-o-transition: all 1.5s ease-in-out;
+	transition: all 1.5s ease-in-out;
+}
+.withfadeout:hover {
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 0;
+}
+</style>
+ <script language="javascript" type="text/javascript">
+ function playSound(soundfile) {
+ document.getElementById("dummy").innerHTML=
+ "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"true\" />";
+ }
+</script>
+ 
+
+<script type="text/javascript">
+function imageSwitch(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Waves.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch2(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Orchestra Tuning.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch3(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Digging.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch4(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Harbour.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch5(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Train.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch6(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Footsteps At Night.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch7(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Birds.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+
+function imageSwitch8(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Dreamscape.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+function imageSwitch9(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Transport.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+function imageSwitch10(_imgID,_imgStart,_imgStop,_soundFile) {
+this.imgID = _imgID;
+this.imgStart = _imgStart;
+this.imgStop = _imgStop;
+this.soundFile = _soundFile;
+
+this.pos = 0;
+this.e;
+
+this.change = function() {
+if(this.pos == 0) {
+this.pos = 1;
+document.getElementById(this.imgID).src = this.imgStop;
+
+this.e = document.createElement('embed');
+this.e.setAttribute('src','https://dl.dropbox.com/u/39640025/MP3/Dry.mp3');
+this.e.setAttribute('id','sound'+this.imgID);
+this.e.setAttribute('hidden','true');
+this.e.setAttribute('autostart','true');
+this.e.setAttribute('loop','true');
+
+document.body.appendChild(this.e);
+} else {
+this.pos = 0;
+document.getElementById(this.imgID).src = this.imgStart;
+this.e.parentNode.removeChild(this.e);
+}
+}
+}
+</script>
+<script type="text/javascript">
+var wave = new imageSwitch('btn1','https://dl.dropbox.com/u/39640025/OMAA/Waves2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Waves%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Waves.mp3');
+var violin = new imageSwitch2('btn2','https://dl.dropbox.com/u/39640025/OMAA/Violin2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Violin%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Orchestra Tuning.mp3');
+var spade = new imageSwitch3('btn3','https://dl.dropbox.com/u/39640025/OMAA/Spade2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Spade%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Digging.mp3');
+var harbour = new imageSwitch4('btn4','https://dl.dropbox.com/u/39640025/OMAA/Harbour2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Harbour%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Harbour.mp3');
+var train = new imageSwitch5('btn5','https://dl.dropbox.com/u/39640025/OMAA/Train2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Train%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Train.mp3');
+var footsteps = new imageSwitch6('btn6','https://dl.dropbox.com/u/39640025/OMAA/Footsteps2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Footsteps%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Footsteps At Night.mp3');
+var birds = new imageSwitch7('btn7','https://dl.dropbox.com/u/39640025/OMAA/Birds2PNG.png','https://dl.dropbox.com/u/39640025/OMAA/Active/Birds%20Active%20PNG.png','https://dl.dropbox.com/u/39640025/MP3/Birds.mp3');
+var dreamscape = new imageSwitch8('btn8','https://dl.dropbox.com/u/39640025/OMAA/Orange%20Off.png','https://dl.dropbox.com/u/39640025/OMAA/Orange%20On.png','https://dl.dropbox.com/u/39640025/MP3/Dreamscape.mp3');
+var transport = new imageSwitch9('btn9','https://dl.dropbox.com/u/39640025/OMAA/Yellow%20Off.png','https://dl.dropbox.com/u/39640025/OMAA/Yellow%20On.png','https://dl.dropbox.com/u/39640025/MP3/Transport.mp3');
+var dry = new imageSwitch10('btn10','https://dl.dropbox.com/u/39640025/OMAA/Green%20Off.png','https://dl.dropbox.com/u/39640025/OMAA/Green%20On.png','https://dl.dropbox.com/u/39640025/MP3/Dry.mp3');
+
+</script>
+</head>
+
+<body>
+
+<div align="center"><img src="http://dl.dropbox.com/u/39640025/Logo.jpg" width="658" height="470" class="withfadeout"/></div><br>
+	<!--IMAGE 1 WAVES-->
+<div style="position: absolute; left: 10px; top: 60px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Waves2PNG.png"
+							     width="331" height="96" border="0" alt="one" onClick="wave.change()" id="btn1" /></div>
+
+	<!--IMAGE 2 VIOLIN-->
+<div style="position: absolute; left: 30px; top: 200px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Violin2PNG.png"
+							      width="153" height="194" border="0" alt="two" onClick="violin.change()" id="btn2" /></div>
+
+	<!--IMAGE 3 HARBOUR-->
+<div style="position: absolute; left: 35px; top: 400px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Harbour2PNG.png"
+							      width="306" height="208" border="0" alt="four" onClick="harbour.change()" id="btn4" /></div>
+
+	<!--IMAGE 4 TRAIN-->
+<div style="position: absolute; right: 45px; top: 480px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Train2PNG.png"
+							       width="258" height="159" border="0" alt="six"  onClick="train.change()" id="btn5" /></div>
+
+	<!--IMAGE 5 SPADE-->
+<div style="position: absolute; left: 170px; top: 220px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Spade2PNG.png"
+							      width="152" height="167" border="0" alt="four" onClick="spade.change()" id="btn3" /></div>
+
+	<!--IMAGE 6 FOOTSTEPS-->
+<div style="position: absolute; right: 100px; top: 250px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Footsteps2PNG.png"
+								width="192" height="202" border="0" alt="ten"  onClick="footsteps.change()" id="btn6" /></div>
+
+	<!--IMAGE 7 BIRDS-->
+<div style="position: absolute; right: 10px; top: 60px;"><img src="https://dl.dropbox.com/u/39640025/OMAA/Birds2PNG.png"
+							      width="298" height="183" border="0" alt="twelve" onClick="birds.change()" id="btn7" /></div>
+ </script>
+ 
+<div style="position: absolute; right: 300px; top: 500px;">	
+<img src="https://dl.dropbox.com/u/39640025/OMAA/Orange%20Off.png"
+							      width="100" height="100" border="0" alt="dream" onClick="dreamscape.change()" id="btn8" /></div>
+<div style="position: absolute; right: 400px; top: 500px;">
+<img src="https://dl.dropbox.com/u/39640025/OMAA/Yellow%20Off.png"
+							      width="100" height="100" border="0" alt="transport" onClick="transport.change()" id="btn9" /></div>
+<div style="position: absolute; right: 500px; top: 500px;">
+<img src="https://dl.dropbox.com/u/39640025/OMAA/Green%20Off.png"
+							      width="100" height="100" border="0" alt="dry" onClick="dry.change()" id="btn10" /></div>
+
+
+</Body>
+</html>
